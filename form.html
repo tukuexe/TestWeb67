@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Out the Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Please Fill Out This Form</h1>
+        
+        <form action="php/submit.php" method="POST">
+            <div class="form-group">
+                <label for="field1">Field 1 (Edit me):</label>
+                <input type="text" id="field1" name="field1" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="field2">Field 2 (Edit me):</label>
+                <input type="text" id="field2" name="field2" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="field3">Field 3 (Edit me):</label>
+                <input type="text" id="field3" name="field3" required>
+            </div>
+            
+            <button type="submit" class="minecraft-btn">Done</button>
+        </form>
+    </div>
+</body>
+</html>
